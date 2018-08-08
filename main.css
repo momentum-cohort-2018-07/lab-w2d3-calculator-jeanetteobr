@@ -1,0 +1,23 @@
+* {
+   box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    background-color: red;
+    justify-content: center;
+}
+
+.container div {
+    background-color: blue;
+    color: white;
+    width: 100px;
+    border: 1px solid white;
+    text-align: center;
+    height: 75px;
+}
+
+.display {
+    flex: 75%;
+}
