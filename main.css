@@ -1,0 +1,42 @@
+* {
+   box-sizing: border-box;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    background-color: #DAF0EE;
+    justify-content: center;
+    font-family: Roboto, sans-serif;
+}
+
+.container div {
+    color: #FFFFFF;
+    width: 100px;
+    border: 1px solid white;
+    text-align: center;
+    height: 75px;
+    padding-top: 25px;
+}
+
+.display {
+    flex: 75%;
+}
+
+#clear{
+    background-color: #3B413C;
+}
+
+#display {
+    background-color: #DAF0EE;
+    color: #3B413C; 
+}
+
+#num-button {
+    background-color: #94D1BE;
+    color: #FFFFFF;
+}
+
+#minus, #times, #decimal, #equals, #plus, #multiply, #divide {
+    background-color: #9DB5B2;
+}
