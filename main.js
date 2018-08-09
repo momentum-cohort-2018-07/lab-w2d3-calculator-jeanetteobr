@@ -42,27 +42,27 @@ document.querySelector('.num-0').addEventListener('click', function () {
     document.querySelector('.display').innerHTML += '0'
 })
 
-document.querySelector('.decimal').addEventListener('click', function () {
+document.getElementById('decimal').addEventListener('click', function () {
     document.querySelector('.display').innerHTML += '.'
 })
 
-document.getElementById('times').addEventListener('click', function () {
-    document.querySelector(".display").innerHTML += eval();
+document.getElementById('multiply').addEventListener('click', function () {
+    document.querySelector(".display").innerHTML += '*'
 })
 
-document.querySelector('.divide').addEventListener('click', function () {
+document.getElementById('divide').addEventListener('click', function () {
     document.querySelector('.display').innerHTML += '/'
 })
 
-document.querySelector('.minus').addEventListener('click', function () {
-    document.querySelector('.display').innerHTML += '+'
+document.getElementById('minus').addEventListener('click', function () {
+    document.querySelector('.display').innerHTML += '-'
 })
 
-document.querySelector('.equals').addEventListener('click', function () {
-    document.querySelector('.display').innerHTML += ''
+document.getElementById('equals').addEventListener('click', function () {
+    document.querySelector('.display').innerHTML = eval(document.querySelector('.display').innerHTML)
 })
 
-document.querySelector('.plus').addEventListener('click', function () {
+document.getElementById('plus').addEventListener('click', function () {
     document.querySelector('.display').innerHTML += '+'
 })
 
